@@ -1,0 +1,22 @@
+{
+  "name": "devtinder",
+  "version": "1.0.0",
+  "description": "tinder for dev's",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "Js",
+    "Express",
+    "JS",
+    "MonogoDB"
+  ],
+  "author": "Sai Prasad",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
