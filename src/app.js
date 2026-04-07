@@ -21,7 +21,7 @@ app.use('/', connectionRoute);
 app.use('/', userRoute);
 
 //get all users
-app.get('/feed', (req, res) => {
+app.get('/feed', userAuth, (req, res) => {
   User.find({})
     .then((users) => {
       if (!users || users.length === 0) {
